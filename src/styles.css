@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body, html {
+  font-family: Arial;
+  color: #777777;
+}
+
+a {
+  color: #333333;
+}
+* {
+  box-sizing: border-box;
+}
