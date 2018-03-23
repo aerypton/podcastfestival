@@ -1,0 +1,77 @@
+app-video {
+  width: calc(80vw - 1rem);
+  max-width: 800px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh auto;
+  height: 44vh;
+  justify-content: center;
+  border: solid 1px #cccccc;
+  padding: 0.5rem;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+div {
+  width: 80vw;
+  max-width: 800px;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  &.kader {
+    margin: 10vh auto;
+    height: 140px;
+    justify-content: center;
+    border: solid 1px #cccccc;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  p {
+    font-size: 20px;
+    font-family: "Arial Black";
+    text-align: center;
+    margin: 0;
+  }
+  h1 {
+    font-size: 23px;
+    font-family: "Arial Black";
+    color: deeppink;
+    text-align: center;
+    margin: 10px;
+  }
+
+  p {
+    font-size: 15px;
+    font-family: "Arial";
+    text-align: center;
+  }
+}
+
+table {
+  margin: 40px auto;
+  width: 80vw;
+  max-width: 800px;
+  td {
+    vertical-align: top;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+}
+
+
+button {
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background: deeppink;
+  color: white;
+  border: none;
+  box-shadow: none;
+  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+}

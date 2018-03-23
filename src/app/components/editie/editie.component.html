@@ -1,0 +1,90 @@
+<div class="kader">
+  <p>Tweakers presenteert:</p>
+  <h1>Podcast-festival 2018</h1>
+  <p>Tech-editie Amsterdam</p>
+</div>
+
+<app-video class="kader" *ngIf="youtubeUrl" [url]="youtubeUrl"></app-video>
+
+<table>
+
+  <tr>
+    <td> 12u30</td>
+    <td>Ontvangst</td>
+  </tr>
+
+  <tr>
+    <td> 13u00</td>
+    <td><a href="https://tech45.eu" target="_blank">Tech45</a></td>
+  </tr>
+
+  <tr>
+    <td> 14u00</td>
+    <td><a href="https://httpcafe.eu" target="_blank">HTTP Café</a> meets <a href="http://techsnacks.nl/"
+                                                                             target="_blank">TechSnacks</a></td>
+  </tr>
+
+  <tr>
+    <td> 15u00</td>
+    <td> Break</td>
+  </tr>
+
+  <tr>
+    <td> 15u30</td>
+    <td><a href="https://soundcloud.com/zeepcast" target="_blank">Zeepcast</a></td>
+  </tr>
+
+  <tr>
+    <td> 16u30</td>
+    <td><a href="https://soundcloud.com/nosopdrie" target="_blank">NOS op 3</a>
+
+      <button (click)="setYoutubeUrl('eLUt8zpIxGM')">
+        <i class="fa fa-play"></i> deel 1
+      </button>
+      <button (click)="setYoutubeUrl('er5apGBUdJQ')">
+        <i class="fa fa-play"></i> deel 2
+      </button>
+      <button (click)="setYoutubeUrl('ufLxPpO390I')">
+        <i class="fa fa-play"></i> deel 3
+      </button>
+      <button (click)="setYoutubeUrl('-K0RiymfVjY')">
+        <i class="fa fa-play"></i> deel 4
+      </button>
+    </td>
+  </tr>
+
+  <tr>
+    <td> 17u30</td>
+    <td> Diner</td>
+  </tr>
+
+  <tr>
+    <td> 18u30</td>
+    <td><a href="https://www.metnerdsomtafel.nl/" target="_blank">Met Nerds Om Tafel</a>
+      <button (click)="setYoutubeUrl('mCJETrw5Wi0')">
+        <i class="fa fa-play"></i> deel 1
+      </button>
+      <button (click)="setYoutubeUrl('rSfa6LLYTGg')">
+        <i class="fa fa-play"></i> deel 2
+      </button>
+      <button (click)="setYoutubeUrl('iZJYkC_TcMk')">
+        <i class="fa fa-play"></i> deel 3
+      </button>
+    </td>
+  </tr>
+
+  <tr>
+    <td> 19u30</td>
+    <td> Borrel</td>
+  </tr>
+
+  <tr>
+    <td> 21u00</td>
+    <td> Einde</td>
+  </tr>
+</table>
+
+
+<div>
+  <p>Meer info op <a href="https://tweakers.net/acties/techpodcastfestival/">Tweakers.net</a>.</p>
+</div>
